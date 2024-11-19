@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Payment</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #9c9c9b, #a5d6a7);
+            margin: 0;
+            padding: 0;
+        }
+
+        .booking-container {
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        h2 {
+            text-align: center;
+            color: black;
+        }
+
+        .booking-form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #2e7d32;
+        }
+        span {
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #2e7d32;
+        }
+
+        input, select {
+            padding: 10px;
+            border: 1px solid #a5d6a7;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+
+        input:focus, select:focus {
+            border-color: #66bb6a;
+            outline: none;
+        }
+
+        .btn {
+            padding: 10px;
+            background-color: #388e3c;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #2e7d32;
+        }
+        .x {
+            width: 500px;
+            color:black;
+            background-color: orange;
+            border: solid 1px black;
+        }
+    </style>
+</head>
+<body>
+    <div class="booking-container">
+        <h2>Flight Booking</h2>
+        <form class="booking-form" action="/process-booking" method="POST">
+            <div class="form-group">
+                <!-- <label for="hotel-name">Hotel Name:</label>
+                <input type="text" id="hotel-name" placeholder="Enter hotel name" required> -->
+                
+            <!-- </div> -->
+            <!-- <div class="form-group">
+                <label for="check-in-date">Check-in Date:</label>
+                <input type="date" id="check-in-date" required>
+            </div>
+            <div class="form-group">
+                <label for="check-out-date">Check-out Date:</label>
+                <input type="date" id="check-out-date" required>
+            </div> -->
+            <!--<h3>Room type</h3>
+            <div class="form-group">
+                <label for="payment-type">Select rooms:</label>
+                <select id="payment-type">
+                    <option value="" disabled selected>Select an option</option>
+                    <option value="card">single room</option>
+                    <option value="upi">double room</option>
+                    <option value="card">suite room</option>
+                    <option value="upi">deluxe room</option>
+                </select>
+            </div>-->
+            <h3>Passenger Information</h3>
+            <div class="form-group">
+                <label for="guest-name">Passenger Name:</label>
+                <input type="text" id="guest-name" placeholder="John Doe" required>
+            </div>
+            <div class="form-group">
+                <label for="text">Adults</label>
+                <input type="text" id="text" required>
+            </div>
+            <div class="form-group">
+                <label for="text">Children</label>
+                <input type="text" id="text" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="example@mail.com" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" placeholder="123-456-7890" required>
+            </div>
+
+            <h3>Payment Details</h3>
+            <div class="form-group">
+                <label for="payment-type">Select Payment Method:</label>
+                <select id="payment-type" required onchange="togglePaymentFields()">
+                    <option value="" disabled selected>Select an option</option>
+                    <option value="card">Credit/Debit Card</option>
+                    <option value="upi">UPI (Google Pay/Phone Pay/Paytm)</option>
+                </select>
+            </div>
+
+            <div class="card-fields">
+                <div class="form-group">
+                    <label for="card-number">Card Number:</label>
+                    <input type="text" id="card-number" placeholder="1234 5678 9012 3456" required pattern="\d{4} \d{4} \d{4} \d{4}">
+                </div>
+                <div class="form-group">
+                    <label for="expiry">Expiry Date (MM/YY):</label>
+                    <input type="text" id="expiry" placeholder="MM/YY" required pattern="\d{2}/\d{2}">
+                </div>
+                <div class="form-group">
+                    <label for="cvv">CVV:</label>
+                    <input type="text" id="cvv" placeholder="123" required pattern="\d{3}">
+                </div>
+            </div>
+
+            <div class="upi-fields" style="display: none;">
+                <div class="form-group">
+                    <label for="upi-id">UPI ID:</label>
+                    <input type="text" id="upi-id" placeholder="example@upi" required>
+                </div>
+                <div class="form-group">
+                    <label for="upi-amount">Amount:</label>
+                    <input type="number" id="upi-amount" placeholder="Amount" required>
+                </div>
+            </div>
+
+            <a href="/flight/flight_success"><button class="x" type="button">Pay Now</button></a>
+        </form>
+    </div>
+
+    <script>
+        function togglePaymentFields() {
+            const paymentType = document.getElementById('payment-type').value;
+            const cardFields = document.querySelector('.card-fields');
+            const upiFields = document.querySelector('.upi-fields');
+
+            if (paymentType === 'card') {
+                cardFields.style.display = 'block';
+                upiFields.style.display = 'none';
+            } else if (paymentType === 'upi') {
+                cardFields.style.display = 'none';
+                upiFields.style.display = 'block';
+            } else {
+                cardFields.style.display = 'none';
+                upiFields.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>

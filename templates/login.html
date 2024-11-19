@@ -1,0 +1,74 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>RegistrationForm_v9 by Colorlib</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- LINEARICONS -->
+		<link rel="stylesheet" href="{% static 'login/fonts/linearicons/style.css'%}">
+
+		<!-- MATERIAL DESIGN ICONIC FONT -->
+		<link rel="stylesheet" href="{% static 'login/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css'%}">
+
+		<!-- DATE-PICKER -->
+		<link rel="stylesheet" href="{% static 'login/vendor/date-picker/css/datepicker.min.css'%}">
+		
+		<!-- STYLE CSS -->
+		<link rel="stylesheet" href="{% static 'login/css/style.css'%}">
+	</head>
+
+	<body>
+
+		<div class="wrapper">
+			<div class="inner">
+				<form action="">
+					{% csrf_token %}
+					<h3>Login</h3>
+					<div class="form-row">
+						<div class="form-wrapper">
+							<label for="">Name *</label>
+							<input type="text" class="form-control" placeholder="Your Name">
+						</div>
+						<!--<div class="form-wrapper">
+							<label for="">Phone *</label>
+							<input type="text" class="form-control" placeholder="Phone">
+						</div>-->
+					</div>
+					<div class="form-row">
+						<div class="form-wrapper">
+							<label for="psw"><b>Password</b></label>
+                            <input type="password" placeholder="Enter Password" name="password" id="psw" required>
+							<a href="/index"><button class="x" type="button">Login</button></a>
+						</div>
+					</form>
+			</div>
+		</div>
+		
+		<script src="{% static 'login/js/jquery-3.3.1.min.js'%}"></script>
+
+		<!-- DATE-PICKER -->
+		<script src="{% static 'login/vendor/date-picker/js/datepicker.js'%}"></script>
+		<script src="{% static 'login/vendor/date-picker/js/datepicker.en.js'%}"></script>
+
+		<script src="{% static 'login/js/main.js'%}"></script>
+	</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+	<style>
+		input[type=text], input[type=password] {
+  width:300px;
+  padding:10px;
+  margin: 2px 0 2px 0;
+  display: inline-block;
+  border: none;
+  background: #4193b9;
+}
+.x{
+            width: 300px;
+            height:30px;
+            color:white;
+            background-color: green;
+            border: solid 1px black;
+        }
+	</style>
+</html>
