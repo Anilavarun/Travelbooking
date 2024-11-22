@@ -12,10 +12,9 @@ Real-Time Updates: Get weather forecasts, currency conversion, and more.
 
 ![Screenshot_20241120_110948](https://github.com/user-attachments/assets/1e6549b4-ee27-4819-8fe1-2bcd5d5042ca)
 ![Screenshot_20241120_105411](https://github.com/user-attachments/assets/eb0801cf-af45-4236-83c3-ef7ff035f659)
+![Screenshot_20241120_105934](https://github.com/user-attachments/assets/1a1079dd-de0f-45b0-97d1-d1d7357206f4)
 ![Screenshot_20241120_105510](https://github.com/user-attachments/assets/6cadd46a-0b80-4260-a695-e14103f93686)
 ![Screenshot_20241120_111840](https://github.com/user-attachments/assets/607cf43c-4e94-4639-88ef-aa3123af096f)
-![Screenshot_20241120_105736](https://github.com/user-attachments/assets/d6008c96-4c7a-4a26-af29-c9385eeb385c)
-![Screenshot_20241120_110052](https://github.com/user-attachments/assets/39235538-8ba5-4f2d-9849-99fb4f4c0350)
 ![Screenshot_20241120_110023](https://github.com/user-attachments/assets/d845400d-09e4-4bb5-accd-a6c5519a5370)
 ![Screenshot_20241122_101620](https://github.com/user-attachments/assets/31b01f8f-501e-4334-aca9-cfde031c62f5)
 ![Screenshot_20241122_101658](https://github.com/user-attachments/assets/5b5475f5-ba4f-43d7-93ba-6d5851bc3b94)
@@ -26,11 +25,11 @@ Real-Time Updates: Get weather forecasts, currency conversion, and more.
 ![Screenshot_20241122_101709](https://github.com/user-attachments/assets/631a37ef-3248-4d0e-84c3-4da19f8eb2a9)
 ![Screenshot_20241122_101705](https://github.com/user-attachments/assets/c48c80a1-f5a6-4aaa-aa87-c02b209322e5)
 ![Screenshot_20241122_101726](https://github.com/user-attachments/assets/41ed2bbb-b777-44b0-8584-f9eb7e4159e9)
-
-
+![Screenshot_20241120_105736](https://github.com/user-attachments/assets/d6008c96-4c7a-4a26-af29-c9385eeb385c)
+![Screenshot_20241120_110052](https://github.com/user-attachments/assets/39235538-8ba5-4f2d-9849-99fb4f4c0350)
 ![Screenshot_20241120_110009](https://github.com/user-attachments/assets/2fb133cf-8be0-40b9-bfd4-cff0884aca11)
 ![Screenshot_20241120_105959](https://github.com/user-attachments/assets/bf1b6971-a539-4c06-9c2c-776d6a8fda56)
-![Screenshot_20241120_105934](https://github.com/user-attachments/assets/1a1079dd-de0f-45b0-97d1-d1d7357206f4)
+
 ![Screenshot_20241120_105916](https://github.com/user-attachments/assets/31523126-adc0-47dc-abbb-3e4d218e78e4)
 ![Screenshot_20241120_105900](https://github.com/user-attachments/assets/bad68095-38b5-4185-9320-50806e73fa78)
 ![Screenshot_20241120_105819](https://github.com/user-attachments/assets/0292f5f8-b9e3-486f-947f-a0f7542212d0)
