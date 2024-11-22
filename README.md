@@ -27,7 +27,8 @@ Real-Time Updates: Get weather forecasts, currency conversion, and more.
 ![Screenshot_20241122_101620](https://github.com/user-attachments/assets/31b01f8f-501e-4334-aca9-cfde031c62f5)
 ![Screenshot_20241122_101658](https://github.com/user-attachments/assets/5b5475f5-ba4f-43d7-93ba-6d5851bc3b94)
 ![Screenshot_20241122_101652](https://github.com/user-attachments/assets/c6cd35ee-17c6-4da9-a97c-f91ec7dab99b)
-![Screenshot_20241122_101647](https://github.com/user-attachments/assets/e37dc19e-0b44-4ad8-bd08-2a5960317705)
+![Screenshot_20241122_101647](https://github.com/user-attachments/assets/e37dc19e-0b44-4ad8-bd08-2a5960317705)![Screenshot_20241122_103136](https://github.com/user-attachments/assets/05f7cb65-0c33-4df6-8090-fba26e872c25)
+
 ![Screenshot_20241122_101640](https://github.com/user-attachments/assets/7fa0c679-94d4-4ab2-b8e3-8e8f89c8c292)
 ![Screenshot_20241122_101631](https://github.com/user-attachments/assets/ca88d8f9-221e-49bf-9727-5c1fcbc12077)
 ![Screenshot_20241122_101709](https://github.com/user-attachments/assets/631a37ef-3248-4d0e-84c3-4da19f8eb2a9)
