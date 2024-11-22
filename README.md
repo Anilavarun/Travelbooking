@@ -8,9 +8,13 @@ we welcome you to collaborate and help make travel planning more enjoyable and s
 Features
 
 Discover Destinations: Search destinations by interest, region, or budget.
+
 Plan Trips: Build personalized itineraries and manage bookings.
+
 Community-Driven Content: Share and explore user reviews, tips, and travel blogs.
+
 Integrated Booking: Book flights, hotels, and tours directly through the platform.
+
 Real-Time Updates: Get weather forecasts, currency conversion, and more.
 
 
