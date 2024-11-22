@@ -1,4 +1,5 @@
-#SAMPLE PROJECT
+#SAMPLE PROJECT:
+
 BK Travel
 Welcome to the Travel Platform Project! This is an open-source initiative aimed at building a comprehensive platform for travelers to plan, explore, and share their journeys. The platform offers trip planning tools, curated destination guides, real-time booking integrations, and a vibrant community space for sharing experiences.
 we welcome you to collaborate and help make travel planning more enjoyable and seamless for everyone!
